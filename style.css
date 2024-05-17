@@ -7,7 +7,7 @@ header{
     justify-content: center;  /* Centraliza os itens horizontalmente */
     align-items: center; /* Centraliza os itens verticalmente */
     flex-direction: relative;
-    gap: 300px;
+    gap: 3px;
 }
 
 
