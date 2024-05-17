@@ -7,7 +7,15 @@ header{
     justify-content: center;  /* Centraliza os itens horizontalmente */
     align-items: center; /* Centraliza os itens verticalmente */
     flex-direction: relative;
+    gap: 20%;
 }
+
+@media (max-width: 720px) {
+    header {
+        gap: 3em; /* Espaço menor para telas menores */
+    }
+}
+
 
 
 .links-header-site li {
