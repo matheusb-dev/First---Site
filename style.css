@@ -3,9 +3,10 @@ header{
     color: black;
     
     display: flex; /* Transforma o container em flexbox */
-    /*display: grid; /* Deixa um de baixo do outro*/
+    /*display: grid; /* Deixa um de baixo do outro */
     justify-content: center;  /* Centraliza os itens horizontalmente */
     align-items: center; /* Centraliza os itens verticalmente */
+    flex-direction: relative;
     gap: 300px;
 }
 
@@ -18,7 +19,7 @@ header{
 .redes-header-site li{
     /*display: inline; */
     margin: 7px; /*Espaçamento entre as imagens*/
-    display: inline-block;
+    display: inline-block;  /*Um item na frente do outro sem barra*/
 }
 
 
