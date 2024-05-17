@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(196, 196, 196);
+    color: black;
+    
+    display: flex; /* Transforma o container em flexbox */
+    /*display: grid; /* Deixa um de baixo do outro*/
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 300px;
+}
+
+
+.links-header-site li {
+    display: inline; /*Um item na frente do outro*/
+    margin: 7px; /*Espaçamento entre os links*/
+}
+
+.redes-header-site li{
+    /*display: inline; */
+    margin: 7px; /*Espaçamento entre as imagens*/
+    display: inline-block;
+}
+
+
+   
+
