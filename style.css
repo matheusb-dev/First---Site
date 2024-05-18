@@ -25,7 +25,7 @@ header{
     align-items: center; /* Centraliza os itens verticalmente */
     flex-direction: relative;
     gap: 10%;
-    margin-top: 3%;
+    padding: 50px;
     
 }
 
