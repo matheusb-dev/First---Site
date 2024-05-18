@@ -25,6 +25,7 @@ header{
     align-items: center; /* Centraliza os itens verticalmente */
     flex-direction: relative;
     gap: 10%;
+    margin-top: 3%;
     
 }
 
@@ -34,6 +35,7 @@ header{
     display: inline; /*Um item na frente do outro*/
     /*margin: 7px; /*Espaçamento entre os links*/
     margin-right: 25px;
+    font-size: 1rem;
     
 }
 
@@ -41,7 +43,7 @@ header{
     display: inline;
     margin: 0 16px 0 0; /*Espaçamento entre as imagens*/
     display: inline-block;  /*Um item na frente do outro sem barra*/
-    margin-right: 30px;
+    margin-right: 154px;
 }
 
 
