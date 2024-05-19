@@ -1,50 +1,28 @@
+/*Reset CSS*/
 .{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     border: none;
     box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    /*min-height: 100vh;*/
-    margin: auto;
-    /*padding-right: -10%;*/
-    flex-direction: column;
-}
-
-
-
 header{
-    background-color: rgb(196, 196, 196);
-    color: black;
-    
-    display: flex; /* Transforma o container em flexbox */
-    /*display: grid; /* Deixa um de baixo do outro */
-    justify-content: center;  /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente */
-    flex-direction: relative;
-    gap: 10%;
-    /*padding: 50px;*/
-    
+    background-color: rgb(196, 196, 196); /*Cor do fundo do header*/
+
+    display: flex; /*Um item na frente do outro*/
+    justify-content: center; /*alinha no centro na horintal*/
+    align-items: center; /*Alinha no centro na vertical*/
+    /*flex-direction: relative;*/
+    /*gap: 25px;*/
 }
 
-
-
-.links-header-site li {
-    display: inline; /*Um item na frente do outro*/
-    /*margin: 7px; /*Espaçamento entre os links*/
-    margin-right: 25px;
-    font-size: 1rem;
-    
+.links-header-site li{
+    display: inline; /*Deixa um elemento na frente do outro*/
+    /*margin-left: 10px;*/
 }
 
 .redes-header-site li{
-    display: inline;
-    margin: 0 16px 0 0; /*Espaçamento entre as imagens*/
-    display: inline-block;  /*Um item na frente do outro sem barra*/
-    margin-right: 20px;
+    display: inline; /*Deixa um elemento na frente do outro*/
+    display: inline-block; /*Tira a barra de frente da imagem*/
+    margin-right: 10px; /*Margin a direita*/
 }
-
-
-   
